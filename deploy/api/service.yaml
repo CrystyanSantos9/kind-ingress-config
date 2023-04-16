@@ -1,11 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: api-service
+    name: svc-voll.med.api
 spec:
-  selector:
-    app: api
-  ports:
-  - port: 80
-    targetPort: 80
-  type: LoadBalancer
+    selector:
+        app: voll.med.api # seleciona pod do deplyment
+    ports:
+        - port: 8081
+          targetPort: 8081
+          protocol: TCP
+    type: LoadBalancer

@@ -45,3 +45,5 @@ kubectl describe -n ingress-nginx pod/ingress-nginx-controller-5b8c4489c7-g6xwb
 O valor do pod pode alterar, logo será necessário alterár o valor <pre>ingress-nginx-controller-5b8c4489c7-g6xwb</pre> de acordo com sua instalação. 
 
 
+
+
